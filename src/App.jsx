@@ -23,7 +23,7 @@ function App() {
           <h1 className="website-header">UBC BEST</h1>
           <ul>
             <li>
-              <Link to="/">HOME</Link>
+              <Link to="">HOME</Link>
             </li>
             <li>
               <Link to="/about">ABOUT</Link>
@@ -43,7 +43,7 @@ function App() {
         {/* A <Routes> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/recruitment" element={<Recruitment />} />
