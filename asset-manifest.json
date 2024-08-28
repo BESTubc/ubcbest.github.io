@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ubcbest.github.io/static/css/main.0ba94a4f.css",
+    "main.js": "/ubcbest.github.io/static/js/main.c9d96dc4.js",
+    "static/js/453.ed3810f9.chunk.js": "/ubcbest.github.io/static/js/453.ed3810f9.chunk.js",
+    "static/media/slick.svg": "/ubcbest.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ubcbest.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ubcbest.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ubcbest.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ubcbest.github.io/index.html",
+    "main.0ba94a4f.css.map": "/ubcbest.github.io/static/css/main.0ba94a4f.css.map",
+    "main.c9d96dc4.js.map": "/ubcbest.github.io/static/js/main.c9d96dc4.js.map",
+    "453.ed3810f9.chunk.js.map": "/ubcbest.github.io/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ba94a4f.css",
+    "static/js/main.c9d96dc4.js"
+  ]
+}
