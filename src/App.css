@@ -409,10 +409,6 @@ nav .fa-solid{
   border-radius: 15px;
 }
 
-.profile-name {
-  color: darkblue;
-}
-
 .profile-card p {
   font-size: 20px;
 }
@@ -528,5 +524,43 @@ nav .fa-solid{
 .quote p {
   font-size: 22px;
   margin-top: 5%;
-  
+}
+
+/*------------------- SPONSORS ---------------------*/
+
+#sponsors {
+  padding-top: 5%;
+  background-color: #28282B;
+  color: #D0D0D0;
+}
+
+.sponsor-container {
+  display: flex;
+  margin-top: 5%;
+}
+
+.sponsor-container h2 {
+  position: sticky;
+  top: 50%;
+  height: 10px;
+}
+
+.tier-container {
+  height: 200vh;
+  width: 25%;
+}
+
+.sponsor-container h3 {
+  margin-top: 15%;
+  font-size: 36px;
+}
+
+.sponsor.dark-button {
+  font-size: 36px;
+}
+
+.profile-card p {
+  color: #D0D0D0;
+  font-size: 24px;
+  font-weight: 300;
 }
