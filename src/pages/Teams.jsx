@@ -1,5 +1,9 @@
 import React from "react";
 
+import external from "/Users/johngrey/ubc-best/src/images/co-captain-external.png";
+import operations from "/Users/johngrey/ubc-best/src/images/co-captain-operations.png";
+import projects from "/Users/johngrey/ubc-best/src/images/co-captain-projects.png";
+
 import Footer from "../components/Footer";
 import ProfileCard from "../components/ProfileCard";
 
@@ -35,20 +39,39 @@ const Teams = () => {
       <div className="teams-headshots">
           <h2>Captains</h2>
           <div className="captains">
-          <ProfileCard color="darkblue" class="hidden item" name="Tim Cook" position="CEO" image="https://picsum.photos/200/200"/>
-          <ProfileCard color="darkblue" class="hidden item" name="Katherine Adams" position="Senior VP General" image="https://picsum.photos/201/200"/>
-          <ProfileCard color="darkblue" class="hidden item" name="Eddie Cue" position="Senior VP Services" image="https://picsum.photos/200/201"/>
-          <ProfileCard color="darkblue" class="hidden item" name="Craig Federhigi" position="Senior VP Software" image="https://picsum.photos/199/200"/>
+            <ProfileCard size="350px" color="darkblue" class="hidden item" name="Dundee Wang" position="Co-Captain External" image={external}/>
+            <ProfileCard size="350px" color="darkblue" class="hidden item" name="Sze Lok Ng" position="Co-Captain Projects" image={projects}/>
+            <ProfileCard size="350px" color="darkblue" class="hidden item" name="Alexandra Murphy" position="Co-Captain Operations" image={operations}/>
           </div>
-          <h2>Sub Teams</h2>
-          <div className="teams">
-          <ProfileCard color="darkblue" class="hidden item" name="MINT" position="" image="https://picsum.photos/200/199"/>
-          <ProfileCard color="darkblue" class="hidden item" name="ENABLE" position="" image="https://picsum.photos/199/201"/>
-          <ProfileCard color="darkblue" class="hidden item" name="M2M" position="" image="https://picsum.photos/201/201"/>
-          <ProfileCard color="darkblue" class="hidden item" name="Project Lifeline" position="" image="https://picsum.photos/199/199"/>
-          </div>
-          
 
+          <h2>Project Leads</h2>
+          <div className="teams">
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Rohan Birk" position="ENABLE" image="https://picsum.photos/200/199"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Angie Peng" position="ENABLE" image="https://picsum.photos/200/199"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Dundee Wang" position="SportsMed" image={external}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Alexandra Murphy" position="SportsMed" image={operations}/>
+            
+          </div>
+          <div className="teams">
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kendall Mooney" position="Lifeline" image="https://picsum.photos/199/199"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kisa Naqvi" position="Lifeline" image="https://picsum.photos/199/199"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Priyanshu Mahey" position="MINT" image="https://picsum.photos/201/200"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Sze Log Ng" position="MINT" image={projects}/>
+          </div>
+          <div className="teams"> 
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Yasmine Bellahcen" position="BIT" image="https://picsum.photos/201/200"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Brianna Tsuyuki" position="BIT" image="https://picsum.photos/200/200"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Wesley Chan" position="M2M" image="https://picsum.photos/199/201"/> 
+          </div>
+
+          <h2>Mentorship, Sponsorship and Media</h2>
+          <div className="teams">
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Ben Magyar" position="Co-Head of Mentorship" image="https://picsum.photos/200/199"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Ceana Macatula" position="Co-Head of Mentorship" image="https://picsum.photos/200/199"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Alicia Fung" position="Head of Media, Workshop" image="https://picsum.photos/199/201"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kisa Naqvi" position="Outreach and Engagement" image="https://picsum.photos/199/201"/>
+            
+          </div>
       </div>
       <Footer />
     </div>
