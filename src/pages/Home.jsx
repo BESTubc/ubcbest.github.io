@@ -5,8 +5,8 @@ import HorizontalProject from "../components/HorizontalProject";
 import SmallProject from "../components/SmallProject";
 import Button from "../components/Button";
 
-import hero_pic from "/Users/johngrey/ubc-best/src/images/front_page.png";
-import who_we_are from "/Users/johngrey/ubc-best/src/images/who_we_are.png";
+import hero_pic from "../images/front_page.png";
+import who_we_are from "../images/who_we_are.png";
 
 function getScrollFeatures() {
   const observer = new IntersectionObserver((entries) => {
