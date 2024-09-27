@@ -9,11 +9,7 @@ const About = () => {
       <div className="about-us-container">
         <h1>ABOUT US</h1>
         <p>
-          Apple conducts business ethically, honestly, and in full compliance
-          with the law. We believe that how we conduct ourselves is as critical
-          to Apple’s success as making the best products in the world. Our
-          Compliance and Business Conduct policies are foundational to how we do
-          business and how we put our values into practice every day.{" "}
+        UBC BEST is a multidisciplinary team that focuses on developing context-appropriate solutions to medical challenges in our local communities and around the world.{" "}
         </p>
         <h2>"We do the right thing, even when it's not easy."</h2>
         <h3>
@@ -22,9 +18,13 @@ const About = () => {
       </div>
       <div className="container">
         <AboutUsCard
-          title="Our Business Conduct Policy"
-          subtitle="Honesty, Respect, Confidentiality, and Compliance"
-          description="Our Business Conduct Policy sets out our ethical requirements for our employees. Each of our employees must certify that they have read and understand the policy when they join Apple, and again each year. Violations of the policy are taken seriously and may result in disciplinary action, up to and including termination of employment."
+          title="Mentorship Program"
+          subtitle="Open to any 1st and 2nd year students who are enthusiastic and willing to learn!"
+          description="We help first and second year students develop their technical, professional and 
+          personal skills to smoothly integrate into the team as a full member at the end of one year.
+          Meetings happen monthly workshops and weekly sub-team meetings for 2- 4 hours once a week, 
+          project shadowing and both 1-on-1 and/or group mentorship depending on subteam. Monthly 30min 
+          - 1 hour BESTie advice sessions to debrief and ask upper years for advice/guidance on any topic."
         />
         <AboutUsCard
           title="Compliance at Apple"

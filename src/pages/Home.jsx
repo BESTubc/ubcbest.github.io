@@ -5,6 +5,9 @@ import HorizontalProject from "../components/HorizontalProject";
 import SmallProject from "../components/SmallProject";
 import Button from "../components/Button";
 
+import hero_pic from "/Users/johngrey/ubc-best/src/images/front_page.png";
+import who_we_are from "/Users/johngrey/ubc-best/src/images/who_we_are.png";
+
 function getScrollFeatures() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -37,7 +40,7 @@ const Home = () => {
             <h3>the "best" student design team</h3>
           </div>
           <div>
-            <img src="https://picsum.photos/600" class="hero-pic" />
+            <img src={hero_pic} class="hero-pic" />
           </div>
         </div>
       </div>
@@ -62,7 +65,7 @@ const Home = () => {
             himenaeos. Fusce quis elit in magna ultrices blandit. Proin
             ultricies porttitor nibh, non pretium mi.
           </p>
-          <img src="https://picsum.photos/1000/400" /* class="hidden item"*/  />
+          <img src={who_we_are} /* class="hidden item"*/  />
         </div>
       </div>
 

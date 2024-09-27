@@ -1,8 +1,22 @@
 import React from "react";
 
-import external from "/Users/johngrey/ubc-best/src/images/co-captain-external.png";
-import operations from "/Users/johngrey/ubc-best/src/images/co-captain-operations.png";
-import projects from "/Users/johngrey/ubc-best/src/images/co-captain-projects.png";
+import external from "/Users/johngrey/ubc-best/src/images/headshots/co-captain-external.png";
+import operations from "/Users/johngrey/ubc-best/src/images/headshots/co-captain-operations.png";
+import projects from "/Users/johngrey/ubc-best/src/images/headshots/co-captain-projects.png";
+
+import enable_lead_one from "/Users/johngrey/ubc-best/src/images/headshots/rohan_birk.png";
+import enable_lead_two from "/Users/johngrey/ubc-best/src/images/headshots/angie_peng.png";
+import lifeline_lead_one from "/Users/johngrey/ubc-best/src/images/headshots/kendall_mooney.png";
+import lifeline_lead_two from "/Users/johngrey/ubc-best/src/images/headshots/kisa_naqvi.png";
+import mint_lead_one from "/Users/johngrey/ubc-best/src/images/headshots/priyanshu_mahey.png";
+import mint_lead_two from "/Users/johngrey/ubc-best/src/images/headshots/co-captain-projects.png";
+import bit_lead_one from "/Users/johngrey/ubc-best/src/images/headshots/yasmine_bellahcen.png";
+import bit_lead_two from "/Users/johngrey/ubc-best/src/images/headshots/brianna_tsuyuki.png";
+import m2m_lead_one from "/Users/johngrey/ubc-best/src/images/headshots/wesly_chan.png";
+import mentorship_lead_one from "/Users/johngrey/ubc-best/src/images/headshots/ben_magyar.png";
+import mentorship_lead_two from "/Users/johngrey/ubc-best/src/images/headshots/ceana_macatula.png";
+import media_lead from "/Users/johngrey/ubc-best/src/images/headshots/alicia_fung.png";
+import outreach_lead from "/Users/johngrey/ubc-best/src/images/headshots/kisa_naqvi.png";
 
 import Footer from "../components/Footer";
 import ProfileCard from "../components/ProfileCard";
@@ -46,31 +60,30 @@ const Teams = () => {
 
           <h2>Project Leads</h2>
           <div className="teams">
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Rohan Birk" position="ENABLE" image="https://picsum.photos/200/199"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Angie Peng" position="ENABLE" image="https://picsum.photos/200/199"/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Rohan Birk" position="ENABLE" image={enable_lead_one}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Angie Peng" position="ENABLE" image={enable_lead_two}/>
             <ProfileCard size="200px" color="darkblue" class="hidden item" name="Dundee Wang" position="SportsMed" image={external}/>
             <ProfileCard size="200px" color="darkblue" class="hidden item" name="Alexandra Murphy" position="SportsMed" image={operations}/>
             
           </div>
           <div className="teams">
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kendall Mooney" position="Lifeline" image="https://picsum.photos/199/199"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kisa Naqvi" position="Lifeline" image="https://picsum.photos/199/199"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Priyanshu Mahey" position="MINT" image="https://picsum.photos/201/200"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Sze Log Ng" position="MINT" image={projects}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kendall Mooney" position="Lifeline" image={lifeline_lead_one}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kisa Naqvi" position="Lifeline" image={lifeline_lead_two}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Priyanshu Mahey" position="MINT" image={mint_lead_one}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Sze Log Ng" position="MINT" image={mint_lead_two}/>
           </div>
           <div className="teams"> 
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Yasmine Bellahcen" position="BIT" image="https://picsum.photos/201/200"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Brianna Tsuyuki" position="BIT" image="https://picsum.photos/200/200"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Wesley Chan" position="M2M" image="https://picsum.photos/199/201"/> 
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Yasmine Bellahcen" position="BIT" image={bit_lead_one}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Brianna Tsuyuki" position="BIT" image={bit_lead_two}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Wesley Chan" position="M2M" image={m2m_lead_one}/> 
           </div>
 
           <h2>Mentorship, Sponsorship and Media</h2>
           <div className="teams">
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Ben Magyar" position="Co-Head of Mentorship" image="https://picsum.photos/200/199"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Ceana Macatula" position="Co-Head of Mentorship" image="https://picsum.photos/200/199"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Alicia Fung" position="Head of Media, Workshop" image="https://picsum.photos/199/201"/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kisa Naqvi" position="Outreach and Engagement" image="https://picsum.photos/199/201"/>
-            
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Ben Magyar" position="Co-Head of Mentorship" image={mentorship_lead_one}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Ceana Macatula" position="Co-Head of Mentorship" image={mentorship_lead_two}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Alicia Fung" position="Head of Media, Workshop" image={media_lead}/>
+            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kisa Naqvi" position="Outreach and Engagement" image={outreach_lead}/>
           </div>
       </div>
       <Footer />
