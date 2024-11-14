@@ -185,13 +185,13 @@ nav .fa-solid{
   margin: 2% 20%;
 }
 
-/*------------------- PROJECTS ---------------------*/
+/*------------------- highlights ---------------------*/
 
 #projects {
-  height: 100vh;
+  height: 40vh;
   width: 100%;
-  background-color: #DCDCDD;
-  color: #28282B;
+  background-color: white;
+  color: black;
 }
 
 .horizontal-projects-container {
@@ -199,8 +199,8 @@ nav .fa-solid{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #28282B;
-  color: #DCDCDD;
+  background-color: black;
+  color: white;
 }
 
 .small-projects-container {
@@ -209,8 +209,8 @@ nav .fa-solid{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #DCDCDD;
-  color: #28282B;
+  background-color: white;
+  color: black;
 }
 
 .projects-container {
@@ -219,6 +219,7 @@ nav .fa-solid{
 
 #projects h1 {
   font-size: 70px;
+  padding: 5%;
 }
 
 #projects h2 {
@@ -236,22 +237,22 @@ nav .fa-solid{
   font-size: px;
   font-weight: 100;
   margin: 5px 50px;
-  border: 2px solid #DCDCDD;
+  border: 2px solid white;
   padding: 10px 20px;
   border-radius: 25cap;
-  color: #DCDCDD;
-  background-color: #28282B;
+  color: white;
+  background-color: black;
 }
 
 .light-button {
   font-size: px;
   font-weight: 100;
   margin: 5px 50px;
-  border: 2px solid #28282B;
+  border: 2px solid black;
   padding: 10px 20px;
   border-radius: 25cap;
-  color: #28282B;
-  background-color: #DCDCDD;
+  color: black;
+  background-color: white;
 }
 
 .projects-container p {
@@ -264,13 +265,13 @@ nav .fa-solid{
 }
 
 .dark-button:hover{
-  color: #28282B;
-  background-color: #DCDCDD;
+  color: black;
+  background-color: white;
 }
 
 .light-button:hover{
-  color: #DCDCDD;
-  background-color: #28282B;
+  color: white;
+  background-color: black;
 }
 
 .projects-container li {

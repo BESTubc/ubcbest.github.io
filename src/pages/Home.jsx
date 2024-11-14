@@ -1,12 +1,10 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Project from "../components/HorizontalProject";
 import HorizontalProject from "../components/HorizontalProject";
 import SmallProject from "../components/SmallProject";
-import Button from "../components/Button";
-
 import hero_pic from "../images/front_page.png";
 import who_we_are from "../images/who_we_are.png";
+import HighlightsCarousel from "../components/HighlightsCarousel";
 
 function getScrollFeatures() {
   const observer = new IntersectionObserver((entries) => {
@@ -71,22 +69,9 @@ const Home = () => {
       <div id="projects">
         <div>
           <h1> RECENT HIGHLIGHTS </h1>
-          <HorizontalProject
-            projectTitle="Adjustable Portable Tabletop"
-            learnMore="Learn more"
-            hook="An inclusive mobile wheelchair tray for our client."
-          />
+          <HighlightsCarousel/>
           <div className="projects-container">
-            <SmallProject
-              projectTitle="Audio Biofeedback Device"
-              learnMore="Learn more"
-              hook="A device that detects muscle activation and notifies user."
-            />
-            <SmallProject
-              projectTitle="Co-assist Device"
-              learnMore="Learn more"
-              hook="A device that is easily adjustable and allows users to have more independence."
-            />
+            
           </div>
         </div>
 
