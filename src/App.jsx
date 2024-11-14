@@ -8,9 +8,7 @@ import About from "./pages/About";
 import Teams from "./pages/Teams";
 import Recruitment from "./pages/Recruitment";
 import Sponsors from "./pages/Sponsors";
-// import bestLogo from "./images/favicon.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import bestLogo from "./images/logo/favicon.png";
 
 function App() {
   return (
@@ -18,9 +16,10 @@ function App() {
       <Router>
         <div>
           <nav>
-            {/* <img src={bestLogo} className="logo"/> */}
-            <FontAwesomeIcon icon="fa-regular fa-lightbulb" />
+            <div>
+            <img src={bestLogo} className="logo" style={{width: "100px", height: "100px"}}/>
             <h1 className="website-header">UBC BEST</h1>
+            </div>
             <ul>
               <li>
                 <Link to="">HOME</Link>

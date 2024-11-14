@@ -35,8 +35,20 @@ const Home = () => {
       <div id="hero">
         <div class="hero-container hidden">
           <div class="hero-text">
-            <h1> UBC BEST</h1>
-            <h2> Biomedical Engineering Design Team</h2>
+            <div style={{display: "flex", justifyContent: "space-evenly"}}>
+              <h1> UBC</h1> 
+              <h1 style={{color: "red"}}> BEST</h1>  
+            </div>
+            <div style={{display: "flex", justifyContent: "center"}}>
+              <h2 style={{color:"red"}}>B</h2>
+              <h2>iomedical </h2>
+              <h2 style={{color:"red", marginLeft: "3%"}}> E</h2>
+              <h2>ngineering </h2>
+              <h2 style={{color:"red", marginLeft: "3%"}}> S</h2>
+              <h2>tudent </h2>
+              <h2 style={{color:"red", marginLeft: "3%"}}> T</h2>
+              <h2>eam</h2>
+            </div>
             <h3>the "best" student design team</h3>
           </div>
           <div>
@@ -49,32 +61,16 @@ const Home = () => {
         <div>
           <h1 /* class="hidden item"*/ >WHO WE ARE</h1>
           <p /* class="hidden item"*/ >
-            Nulla rutrum, augue eget venenatis vulputate, elit purus tempus
-            risus, in semper ipsum eros non lacus. Duis vehicula lorem non purus
-            porttitor gravida. Phasellus vitae urna nec mauris aliquet
-            hendrerit. Vestibulum id est ac risus sodales eleifend. Donec
-            malesuada eros vitae convallis porta. In in turpis vulputate purus
-            euismod consectetur. Donec vel pellentesque magna.
-          </p>
-          <p /* class="hidden item"*/ >
-            Sed sit amet neque condimentum est suscipit lobortis vitae eget
-            ante. Sed aliquam nibh sed laoreet auctor. Aliquam sagittis
-            porttitor sem. Cras ullamcorper ex erat, eget sagittis ante mattis
-            eget. Nam gravida sed risus ut ultrices. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Fusce quis elit in magna ultrices blandit. Proin
-            ultricies porttitor nibh, non pretium mi.
+            The "BEST" Design Team.
           </p>
           <img src={who_we_are} /* class="hidden item"*/  />
         </div>
       </div>
 
-      <hr />
-
-      {/* PROJECTS */}
+      {/* HIGHTLIGHTS */}
       <div id="projects">
         <div>
-          <h1> OUR PROJECTS </h1>
+          <h1> RECENT HIGHLIGHTS </h1>
           <HorizontalProject
             projectTitle="Adjustable Portable Tabletop"
             learnMore="Learn more"
