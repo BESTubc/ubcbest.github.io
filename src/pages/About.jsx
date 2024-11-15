@@ -7,16 +7,26 @@ const About = () => {
   return (
     <div>
       <div className="about-us-container">
-        <h1>ABOUT US</h1>
-        <p>
-        UBC BEST is a multidisciplinary team that focuses on developing context-appropriate solutions to medical challenges in our local communities and around the world.{" "}
-        </p>
-        <h2>"We do the right thing, even when it's not easy."</h2>
-        <h3>
-          <strong>Tim Cook</strong>
-        </h3>
+        <div style={{display: "flex", justifyContent: "space-between"}}>
+          <h1 style={{marginRight: "10px"}}>ABOUT</h1>
+          <h1 style={{color:"red", marginLeft: "10px"}}>US</h1>
+        </div>
+        
+        <div style={{width:"50%", marginTop: "50px"}}>
+          <h3 style={{color: "red"}}>
+            <strong>Who We Are</strong>
+          </h3>
+          <h2 style={{marginTop: "20px"}}>"UBC BEST is a multidisciplinary team that focuses on developing context-appropriate solutions to medical challenges in our local communities and around the world.{" "}"</h2>
+        </div>
+        <div style={{width:"50%", marginTop: "50px"}}>
+          <h3 style={{color: "red"}}>
+            <strong>Mission Statement</strong>
+          </h3>
+          <h2 style={{marginTop: "20px"}}>"To design innovative solutions that improve lives by combining diverse talents and knowledge from multiple disciplines, driven by a commitment to collaboration, inclusivity, and impact."</h2>
+        </div>
+        
       </div>
-      <div className="container">
+      <div className="about-mini-container">
         <AboutUsCard
           title="Mentorship Program"
           subtitle="Open to any 1st and 2nd year students who are enthusiastic and willing to learn!"
