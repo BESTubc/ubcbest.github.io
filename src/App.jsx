@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Teams from "./pages/Teams";
+import People from "./pages/People";
 import Recruitment from "./pages/Recruitment";
 import Sponsors from "./pages/Sponsors";
 import bestLogo from "./images/logo/favicon.png";
@@ -31,6 +32,9 @@ function App() {
                 <Link to="/teams">TEAMS</Link>
               </li>
               <li>
+                <Link to="/people">PEOPLE</Link>
+              </li>
+              <li>
                 <Link to="/recruitment">
                   RECRUITMENT
                 </Link>
@@ -47,6 +51,7 @@ function App() {
             <Route path="" element={<Home />}/>
             <Route path="/about" element={<About />} />
             <Route path="/teams" element={<Teams />} />
+            <Route path="/people" element={<People />} />
             <Route path="/recruitment" element={<Recruitment />}/>
             <Route path="/sponsors" element={<Sponsors />} />
           </Routes>

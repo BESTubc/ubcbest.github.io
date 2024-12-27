@@ -1,7 +1,5 @@
 import React from "react";
 import Footer from "../components/Footer";
-import HorizontalProject from "../components/HorizontalProject";
-import SmallProject from "../components/SmallProject";
 import hero_pic from "../images/front_page.png";
 import who_we_are from "../images/who_we_are.png";
 import HighlightsCarousel from "../components/HighlightsCarousel";
@@ -50,7 +48,11 @@ const Home = () => {
             <h3>the "best" student design team</h3>
           </div>
           <div>
-            <img src={hero_pic} class="hero-pic" />
+          <iframe src="https://drive.google.com/file/d/1Za3SHpv2oH8Yu7b2G4ruStDI0qWqWHmG/preview"
+            width="640" 
+            height="480" 
+            allow="autoplay"
+            class="hero-pic"></iframe>
           </div>
         </div>
       </div>
@@ -61,7 +63,7 @@ const Home = () => {
           <p /* class="hidden item"*/ >
             The "BEST" Design Team.
           </p>
-          <img src={who_we_are} /* class="hidden item"*/  />
+          <iframe src="https://drive.google.com/file/d/1Chr9da6t7FpKA_UnKrpPWvZ-PVKPh1eE/preview" width="640" height="480" allow="autoplay"></iframe>
         </div>
       </div>
 

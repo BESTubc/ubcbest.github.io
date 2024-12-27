@@ -144,11 +144,12 @@ h2 {
 }
 
 .hero-pic {
-  width: 600px;
-  height: 600px;
+  width: 640px;
+  height: 427px;
   float: right;
-  margin-top: 15%;
-  border-radius: 10%;
+  margin-top: 35%;
+  border-radius: 2%;
+  margin-right: 10%;
 }
 
 .hero-container {
@@ -398,9 +399,9 @@ nav .fa-solid{
 
 .teams-header h1 {
   margin-top: 5%;
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
 }
 
 .teams-headshots {
@@ -430,6 +431,17 @@ nav .fa-solid{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 20px;
+}
+
+.teams h3 {
+  color: red;
+  font-size: 36px;
+}
+
+.teams h4 {
+  color: red;
+  font-size: 20px;
 }
 
 /*------------------- RECRUITMENT ---------------------*/

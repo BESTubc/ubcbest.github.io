@@ -16,13 +16,13 @@ const About = () => {
           <h3 style={{color: "red"}}>
             <strong>Who We Are</strong>
           </h3>
-          <h2 style={{marginTop: "20px"}}>"UBC BEST is a multidisciplinary team that focuses on developing context-appropriate solutions to medical challenges in our local communities and around the world.{" "}"</h2>
+          <h2 style={{marginTop: "20px"}}>UBC BEST is a multidisciplinary team that focuses on developing context-appropriate solutions to medical challenges in our local communities and around the world.{" "}</h2>
         </div>
         <div style={{width:"50%", marginTop: "50px"}}>
           <h3 style={{color: "red"}}>
             <strong>Mission Statement</strong>
           </h3>
-          <h2 style={{marginTop: "20px"}}>"To design innovative solutions that improve lives by combining diverse talents and knowledge from multiple disciplines, driven by a commitment to collaboration, inclusivity, and impact."</h2>
+          <h2 style={{marginTop: "20px"}}>To design innovative solutions that improve lives by combining diverse talents and knowledge from multiple disciplines, driven by a commitment to collaboration, inclusivity, and impact.</h2>
         </div>
         
       </div>
@@ -36,7 +36,7 @@ const About = () => {
           project shadowing and both 1-on-1 and/or group mentorship depending on subteam. Monthly 30min 
           - 1 hour BESTie advice sessions to debrief and ask upper years for advice/guidance on any topic."
         />
-        <AboutUsCard
+        {/* <AboutUsCard
           title="Compliance at Apple"
           description="A number of compliance functions are deeply integrated into our business organization. Apple’s Compliance and Business Conduct team focuses on Business Conduct, Political Compliance, Export and Sanctions Compliance, Health Compliance, Antitrust Compliance, and Anti-Corruption Compliance."
         />
@@ -47,7 +47,7 @@ const About = () => {
         <AboutUsCard
           title="Being Accountable"
           description="We conduct internal and third-party independent assessments of our programs to ensure they are effective. We make changes to our policies and our training to reflect emerging trends. Apple’s Chief Compliance Officer provides regular updates to the Audit and Finance Committee of the Board of Directors."
-        />
+        /> */}
       </div>
 
       <Footer />
