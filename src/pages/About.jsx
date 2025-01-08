@@ -35,6 +35,7 @@ const About = () => {
           Meetings happen monthly workshops and weekly sub-team meetings for 2- 4 hours once a week, 
           project shadowing and both 1-on-1 and/or group mentorship depending on subteam. Monthly 30min 
           - 1 hour BESTie advice sessions to debrief and ask upper years for advice/guidance on any topic."
+          iframe="https://drive.google.com/file/d/13cs_0W3hyynUh0bb27FO1qgwMANyO9_s/preview"
         />
         {/* <AboutUsCard
           title="Compliance at Apple"

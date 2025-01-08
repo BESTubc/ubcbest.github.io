@@ -60,13 +60,13 @@ function HighlightsCarousel() {
               link="https://picsum.photos/401/400"
             />
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%'}}>
               <InstagramEmbed url="https://www.instagram.com/p/C_zSIoJxFVL/?utm_source=ig_embed&amp;utm_campaign=loading" width={400} height={500} />
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%'  }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%'}}>
               <InstagramEmbed url="https://www.instagram.com/p/C_thkoeyhDq/?utm_source=ig_embed&amp;utm_campaign=loading" width={400} height={500} />
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%'  }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%'}}>
               <InstagramEmbed url="https://www.instagram.com/p/C_e-UMcR5Bh/?utm_source=ig_embed&amp;utm_campaign=loading" width={400} height={500} />
             </div>
             <div>

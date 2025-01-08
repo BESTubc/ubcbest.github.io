@@ -147,9 +147,10 @@ h2 {
   width: 640px;
   height: 427px;
   float: right;
-  margin-top: 35%;
-  border-radius: 2%;
+  margin-top: 25%;
+  border-radius: 5cap;
   margin-right: 10%;
+  border-style: none;
 }
 
 .hero-container {
@@ -170,6 +171,11 @@ nav .fa-solid{
   height: 100%;
 }
 
+iframe {
+  border-style: none;
+  border-radius: 5cap;
+}
+
 /*------------------- HOME-ABOUT ---------------------*/
 
 #home-about {
@@ -187,7 +193,7 @@ nav .fa-solid{
 }
 
 #home-about iframe {
-  height: 430px;
+  height: 427px;
 }
 
 /*------------------- highlights ---------------------*/
@@ -281,6 +287,10 @@ nav .fa-solid{
   justify-content: center;
 }
 
+.project-img img {
+  border-radius: 5cap;
+}
+
 .dark-button:hover{
   color: black;
   background-color: white;
@@ -316,20 +326,22 @@ nav .fa-solid{
 
 .about-us-container h2 {
   margin-bottom: 20px;
+  font-size: 22px;
 }
 
 .about-us-container h3 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .about-us-card {
   background-color: black;
   border: 5px solid #DCDCDD;
   width: 60%;
-  border-radius: 25px;
+  border-radius: 2cap;
   display: flex;
   height: 35vh;
   margin: 2%;
+  position: relative
 }
 
 .about-us-card-info {
@@ -351,13 +363,25 @@ nav .fa-solid{
 }
 
 .about-us-card-description {
-  padding: 60px;
   text-align: left;
   width: 50%;
   background: #FF5733;
-  border-radius: 0px 25px 25px 0px;
+  border-radius: 0px 1.4cap 1.4cap 0px;
   font-size: 18px;
   font-weight: 100;
+}
+
+.about-us-card-description p {
+  position: absolute;
+  top: 0;
+  margin: 30px;
+  line-height: 1.5;
+}
+
+.about-us-card-description iframe {
+  height: 354px;
+  width: 510px;
+  border-radius: 0px 1.4cap 1.4cap 0px;
 }
 
 .container {

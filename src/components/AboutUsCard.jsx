@@ -1,6 +1,10 @@
 import React from "react";
+import { useState } from "react";
 
 const AboutUsCard = (props) => {
+  const [toggle, setToggle] = useState(false);
+  const onToggle = () => setToggle(!toggle);
+
   return (
     <div className="about-us-card">
       <div className="about-us-card-info">
@@ -9,12 +13,11 @@ const AboutUsCard = (props) => {
           <h3>{props.subtitle}</h3>
         </div>
         <div className="more-button">
-          <button>+</button>
+          <button onClick={onToggle}>+</button>
         </div>
       </div>
       <div className="about-us-card-description">
-        <p>{props.description}</p>
-        <img src={props.image}/>
+        { toggle ? <p>{props.description}</p> : <iframe class="about-us-image" src={props.iframe} width="640" height="480" allow="autoplay"></iframe>}
       </div>
     </div>
   );
