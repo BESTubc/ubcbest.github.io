@@ -7,14 +7,20 @@ const HorizontalProject = (props) => {
 
   return (
     <div class="horizontal-projects-container">
-      <div>
-        <h2>{props.projectTitle}</h2>
-        <h3>{props.hook}</h3>
+      <div class="projects-container">
+        <div class="container">
+          <h2>{props.projectTitle}</h2>
+          <h3>{props.hook}</h3>
+        </div>
+        
         <div>
           <Link to="/about"><Button title={props.learnMore} mode="dark-button"/></Link>
-          
+          <div class="project-img">
+            
+            <img src={props.link}/>
+          </div>
         </div>
-        <img src="https://picsum.photos/600/400" className="project-img" />
+          
       </div>
     </div>
   );

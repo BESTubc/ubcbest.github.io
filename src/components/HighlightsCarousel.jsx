@@ -1,7 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import HorizontalProject from './HorizontalProject';
-import SmallProject from './SmallProject';
+import { InstagramEmbed } from 'react-social-media-embed';
 
 function HighlightsCarousel() {
   const responsive = {
@@ -25,7 +25,7 @@ function HighlightsCarousel() {
             <Carousel
             swipeable={false}
             draggable={false}
-            showDots={true}
+            showDots={false}
             responsive={responsive}
             ssr={true} // means to render carousel on server-side.
             infinite={true}
@@ -41,28 +41,36 @@ function HighlightsCarousel() {
             projectTitle="Simon Cox Competition"
             learnMore="Learn more"
             hook="Our recent win at the annual Simon Cox competition"
+            link="https://picsum.photos/400/400"
           />
             </div>
             <div>
             <HorizontalProject
               projectTitle="Audio Biofeedback Device"
               learnMore="Learn more"
-              hook="A device that detects muscle activation and notifies user."
+              hook="Detects muscle activation and notifies user."
+              link="https://picsum.photos/400/401"
             />
             </div>
             <div>
             <HorizontalProject
               projectTitle="Co-assist Device"
               learnMore="Learn more"
-              hook="A device that is easily adjustable giving users independence."
+              hook="An easily adjustable device giving users mobility."
+              link="https://picsum.photos/401/400"
             />
             </div>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%' }}>
+              <InstagramEmbed url="https://www.instagram.com/p/C_zSIoJxFVL/?utm_source=ig_embed&amp;utm_campaign=loading" width={400} height={500} />
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%'  }}>
+              <InstagramEmbed url="https://www.instagram.com/p/C_thkoeyhDq/?utm_source=ig_embed&amp;utm_campaign=loading" width={400} height={500} />
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%'  }}>
+              <InstagramEmbed url="https://www.instagram.com/p/C_e-UMcR5Bh/?utm_source=ig_embed&amp;utm_campaign=loading" width={400} height={500} />
+            </div>
             <div>
-            <HorizontalProject
-              projectTitle="Co-assist Device"
-              learnMore="Learn more"
-              hook="A device that is easily adjustable giving users independence."
-            />
+              
             </div>
           </Carousel>
   )

@@ -173,7 +173,7 @@ nav .fa-solid{
 /*------------------- HOME-ABOUT ---------------------*/
 
 #home-about {
-  height: 60vh;
+  height: 70vh;
   background-color: white; 
   color: black;
 }
@@ -186,6 +186,10 @@ nav .fa-solid{
   margin: 2% 20%;
 }
 
+#home-about iframe {
+  height: 430px;
+}
+
 /*------------------- highlights ---------------------*/
 
 #projects {
@@ -196,17 +200,16 @@ nav .fa-solid{
 }
 
 .horizontal-projects-container {
-  padding-top: 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: space-between;
+  height: 700px;
   background-color: black;
   color: white;
+  margin-top: -10%;
 }
 
 .small-projects-container {
-  padding-top: 30px;
-  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,21 +219,31 @@ nav .fa-solid{
 
 .projects-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 #projects h1 {
   font-size: 70px;
-  padding: 5%;
+  margin: 2%;
 }
 
 #projects h2 {
   font-weight: bolder;
   font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 10px;
 }
 
 #projects h3 {
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
   margin: 10px;
 }
 
@@ -263,6 +276,9 @@ nav .fa-solid{
 
 .project-img {
   margin: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .dark-button:hover{
@@ -275,13 +291,7 @@ nav .fa-solid{
   background-color: black;
 }
 
-.projects-container li {
-  display: inline-block;
-  list-style: none;
-  font-size: 20px;
-  text-decoration: none;
-  margin: 20px;
-}
+
 
 /*------------------- ABOUT US ---------------------*/
 

@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import hero_pic from "../images/front_page.png";
-import who_we_are from "../images/who_we_are.png";
+import { InstagramEmbed } from 'react-social-media-embed';
 import HighlightsCarousel from "../components/HighlightsCarousel";
 
 function getScrollFeatures() {
@@ -25,6 +24,8 @@ const Home = () => {
   React.useEffect(() => {
     getScrollFeatures({ type: "recruitment" });
   }, [scrollFeatures]);
+
+  let posts = []
   return (
     <div>
       {/* HERO */}
@@ -69,12 +70,9 @@ const Home = () => {
 
       {/* HIGHTLIGHTS */}
       <div id="projects">
+        <h1> RECENT HIGHLIGHTS </h1>
         <div>
-          <h1> RECENT HIGHLIGHTS </h1>
           <HighlightsCarousel/>
-          <div className="projects-container">
-            
-          </div>
         </div>
 
         {/* <div>
