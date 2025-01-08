@@ -429,6 +429,10 @@ nav .fa-solid{
 
 }
 
+.teams-headshots iframe {
+  height: 350px;
+}
+
 
 .captains {
   display: flex;

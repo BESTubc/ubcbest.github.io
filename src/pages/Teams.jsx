@@ -38,7 +38,7 @@ const Teams = () => {
 
       <div className="teams-headshots">
           <div className="teams">
-            <div style={{width: "50%"}}>
+            <div style={{width: "50%", marginRight: "5%"}}>
               <h3>ENABLE</h3>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
@@ -53,7 +53,7 @@ const Teams = () => {
           <hr />
 
           <div className="teams">
-            <div style={{width: "50%"}}>
+            <div style={{width: "50%", marginRight: "5%"}}>
               <h3>SportsMed</h3>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
@@ -68,7 +68,7 @@ const Teams = () => {
           <hr />
 
           <div className="teams">
-            <div style={{width: "50%"}}>
+            <div style={{width: "50%", marginRight: "5%"}}>
               <h3>Lifeline</h3>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
@@ -83,7 +83,7 @@ const Teams = () => {
           <hr />
 
           <div className="teams">
-            <div style={{width: "50%"}}>
+            <div style={{width: "50%", marginRight: "5%"}}>
               <h3>MINT</h3>
               <h4>Multifaceted Innovations in Neurotechnology</h4>
               <p>
@@ -99,7 +99,7 @@ const Teams = () => {
           <hr />
 
           <div className="teams">
-            <div style={{width: "50%"}}>
+            <div style={{width: "50%", marginRight: "5%"}}>
             <h3>BIT</h3>
             <h4>Biochemical Innovation Team</h4>
               <p>
@@ -115,7 +115,7 @@ const Teams = () => {
           <hr />
 
           <div className="teams">
-            <div style={{width: "50%"}}>
+            <div style={{width: "50%", marginRight: "5%"}}>
             <h3>M2M</h3>
             <h4>Multiple Sclerosis to Movement</h4>
               <p>
@@ -131,7 +131,7 @@ const Teams = () => {
           <hr />
 
           <div className="teams">
-            <div style={{width: "50%"}}>
+            <div style={{width: "50%", marginRight: "5%"}}>
             <h3>Mentorship</h3>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
@@ -146,7 +146,7 @@ const Teams = () => {
           <hr />
 
           <div className="teams">
-            <div style={{width: "50%"}}>
+            <div style={{width: "50%", marginRight: "5%"}}>
             <h3>Media</h3>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
