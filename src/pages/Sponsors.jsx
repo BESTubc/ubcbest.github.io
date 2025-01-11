@@ -3,6 +3,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import ProfileCard from "../components/ProfileCard";
 import Button from "../components/Button";
+import SponsorshipPackage from "../files/2023-2024_BEST_Sponsorship_Package.pdf";
 
 const Sponsors = () => {
 //   var sponsors = document.getElementById("sponsors");
@@ -60,7 +61,9 @@ const Sponsors = () => {
         </div>
         <h2>FOR SPONSORING</h2>
       </div>
-      <Button mode="sponsor dark-button" title="SPONSOR PACKAGE"/>
+      <a href={SponsorshipPackage} download="BEST_Sponsorship_Package" target='_blank'>
+        <Button mode="sponsor dark-button" title="Become a Sponsor"/>
+      </a>
       <Footer />
     </div>
   );
