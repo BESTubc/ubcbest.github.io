@@ -179,13 +179,14 @@ iframe {
 /*------------------- HOME-ABOUT ---------------------*/
 
 #home-about {
-  height: 70vh;
+  height: 80vh;
   background-color: white; 
   color: black;
 }
 
 #home-about h1 {
   padding-top: 4%;
+  margin: 0 15px;
 }
 
 #home-about p {
@@ -232,7 +233,7 @@ iframe {
 
 #projects h1 {
   font-size: 70px;
-  margin: 2%;
+  margin: 2% 20px;
 }
 
 #projects h2 {
@@ -419,11 +420,8 @@ iframe {
 }
 
 .teams-header {
-  width: 60%;
   height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 60%;
 }
 
 .line {
@@ -463,6 +461,9 @@ iframe {
   justify-content: space-between;
   align-items: center;
   text-wrap: wrap;
+}
+
+.profile-card {
 }
 
 .teams {
@@ -586,7 +587,7 @@ iframe {
 
 #sponsors {
   padding-top: 5%;
-  background-color: #28282B;
+  background-color: black;
   color: #D0D0D0;
 }
 
@@ -602,7 +603,7 @@ iframe {
 }
 
 .tier-container {
-  height: 200vh;
+  height: 360vh;
   width: 25%;
 }
 
@@ -624,4 +625,10 @@ iframe {
 .profile-card p {
   color: #D0D0D0;
   font-weight: 300;
+}
+
+.footer {
+  display: block;
+  margin-top: 100px;
+
 }

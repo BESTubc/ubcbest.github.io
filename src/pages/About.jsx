@@ -20,9 +20,19 @@ const About = () => {
         </div>
         <div style={{width:"50%", marginTop: "50px"}}>
           <h3 style={{color: "red"}}>
-            <strong>Mission Statement</strong>
+            <strong>Threefold Mission Statement</strong>
           </h3>
-          <h2 style={{marginTop: "20px"}}>To design innovative solutions that improve lives by combining diverse talents and knowledge from multiple disciplines, driven by a commitment to collaboration, inclusivity, and impact.</h2>
+          <h2 style={{marginTop: "20px"}}>
+          To actively develop the biomedical community
+through engineering contributions, connections,
+and outreach </h2>
+<h2 style={{marginTop: "20px"}}>
+To use a context appropriate approach to address medical
+challenges worldwide in collaboration with healthcare
+professionals</h2>
+<h2 style={{marginTop: "20px"}}>
+To develop members both technically and professionally</h2>
+
         </div>
         
       </div>

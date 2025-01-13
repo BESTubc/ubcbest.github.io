@@ -41,10 +41,12 @@ const Teams = () => {
             <div style={{width: "50%", marginRight: "5%"}}>
               <h3>ENABLE</h3>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
-              Aliquam eu nulla a risus scelerisque ultrices sed molestie ex. Nam pretium commodo ipsum at semper. Praesent ornare pulvinar
-                porttitor. Curabitur condimentum laoreet accumsan. Morbi venenatis metus ac ligula porta, non gravida leo fermentum. Mauris 
-                nec dui eu eros aliquam fermentum.
+              Custom, client-focused assistive
+device initiatives in collaboration
+with the Vancouver chapter of the
+Tetra Society. Past projects include
+a blanket mover and an adaptive
+game controller.
               </p>
             </div>
             <iframe src="https://drive.google.com/file/d/1fgfqObP2CcCpjG7xRc8szflSDhjtZZvx/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -56,10 +58,10 @@ const Teams = () => {
             <div style={{width: "50%", marginRight: "5%"}}>
               <h3>SportsMed</h3>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
-              Aliquam eu nulla a risus scelerisque ultrices sed molestie ex. Nam pretium commodo ipsum at semper. Praesent ornare pulvinar
-                porttitor. Curabitur condimentum laoreet accumsan. Morbi venenatis metus ac ligula porta, non gravida leo fermentum. Mauris 
-                nec dui eu eros aliquam fermentum.
+              SportsMed analyzes common
+sports injuries and how we can
+help prevent and recover from
+these injuries.
               </p>
             </div>
             <iframe src="https://drive.google.com/file/d/1nNUXwTF8uefKxN7C1j7r5JEtPy7Gwt5c/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -71,10 +73,13 @@ const Teams = () => {
             <div style={{width: "50%", marginRight: "5%"}}>
               <h3>Lifeline</h3>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
-              Aliquam eu nulla a risus scelerisque ultrices sed molestie ex. Nam pretium commodo ipsum at semper. Praesent ornare pulvinar
-                porttitor. Curabitur condimentum laoreet accumsan. Morbi venenatis metus ac ligula porta, non gravida leo fermentum. Mauris 
-                nec dui eu eros aliquam fermentum.
+              Lifeline is a team dedicated to
+adapting and developing
+
+medical technologies for low-
+income settings to help imrpove
+
+accessibility of healthcare for all.
               </p>
             </div>
             <iframe src="https://drive.google.com/file/d/1T5JZvGHMjW3wg_Rq1PXrJXHiQB8Lc7W1/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -87,10 +92,11 @@ const Teams = () => {
               <h3>MINT</h3>
               <h4>Multifaceted Innovations in Neurotechnology</h4>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
-              Aliquam eu nulla a risus scelerisque ultrices sed molestie ex. Nam pretium commodo ipsum at semper. Praesent ornare pulvinar
-                porttitor. Curabitur condimentum laoreet accumsan. Morbi venenatis metus ac ligula porta, non gravida leo fermentum. Mauris 
-                nec dui eu eros aliquam fermentum.
+              Exploring accessible
+neurotechnology tusing EEG
+and annual submissions to
+the international NeuroTechX
+competition.
               </p>
             </div>
             <iframe src="https://drive.google.com/file/d/1MWdRYMI1WCBESAi_ptAqyyDhD00TcJC0/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -103,10 +109,13 @@ const Teams = () => {
             <h3>BIT</h3>
             <h4>Biochemical Innovation Team</h4>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
-              Aliquam eu nulla a risus scelerisque ultrices sed molestie ex. Nam pretium commodo ipsum at semper. Praesent ornare pulvinar
-                porttitor. Curabitur condimentum laoreet accumsan. Morbi venenatis metus ac ligula porta, non gravida leo fermentum. Mauris 
-                nec dui eu eros aliquam fermentum.
+              BIT investigates the impacts of
+Rutin and Quercetin on
+pancreatic β-Cell apoptosis and
+insulin secretion in primary
+
+human Islets and stem cell-
+derived islets
               </p>
             </div>
             <iframe src="https://drive.google.com/file/d/15w1RSQzA43uOs5-Ywp5VaGRQ3Qt-V5Bw/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -119,10 +128,12 @@ const Teams = () => {
             <h3>M2M</h3>
             <h4>Multiple Sclerosis to Movement</h4>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
-              Aliquam eu nulla a risus scelerisque ultrices sed molestie ex. Nam pretium commodo ipsum at semper. Praesent ornare pulvinar
-                porttitor. Curabitur condimentum laoreet accumsan. Morbi venenatis metus ac ligula porta, non gravida leo fermentum. Mauris 
-                nec dui eu eros aliquam fermentum.
+              An MS-centric project aims at
+developing a therapy glove in
+combination with an interactive
+gaming interface to create a
+more motivating and engaging
+rehabilitation experience.
               </p>
             </div>
             <iframe src="https://drive.google.com/file/d/17KcGX60c8MAD977-DXelRLRNIlLJ8cse/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -134,10 +145,9 @@ const Teams = () => {
             <div style={{width: "50%", marginRight: "5%"}}>
             <h3>Mentorship</h3>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
-              Aliquam eu nulla a risus scelerisque ultrices sed molestie ex. Nam pretium commodo ipsum at semper. Praesent ornare pulvinar
-                porttitor. Curabitur condimentum laoreet accumsan. Morbi venenatis metus ac ligula porta, non gravida leo fermentum. Mauris 
-                nec dui eu eros aliquam fermentum.
+              Open to any 1st and 2nd year students who are enthusiastic and willing to learn!
+          We help first and second year students develop their technical, professional and 
+          personal skills to smoothly integrate into the team as a full member at the end of one year.
               </p>
             </div>
             <iframe src="https://drive.google.com/file/d/11HbkE8qDOcQsIfrqI1dGSdJIL7IhDz19/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -149,10 +159,7 @@ const Teams = () => {
             <div style={{width: "50%", marginRight: "5%"}}>
             <h3>Media</h3>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi vitae elit fringilla fermentum eget quis odio.
-              Aliquam eu nulla a risus scelerisque ultrices sed molestie ex. Nam pretium commodo ipsum at semper. Praesent ornare pulvinar
-                porttitor. Curabitur condimentum laoreet accumsan. Morbi venenatis metus ac ligula porta, non gravida leo fermentum. Mauris 
-                nec dui eu eros aliquam fermentum.
+              
               </p>
             </div>
             <iframe src="https://drive.google.com/file/d/16oTu4mwE5CbcHktJ1rSrF0FTYuCbcOzC/preview" width="640" height="480" allow="autoplay"></iframe>
