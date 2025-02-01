@@ -18,7 +18,7 @@ function App() {
         <div>
           <nav>
             <div>
-            <img src={bestLogo} className="logo" style={{width: "100px", height: "100px"}}/>
+            <img src={bestLogo} className="logo" alt=""/>
             <h1 className="website-header">UBC BEST</h1>
             </div>
             <ul>
