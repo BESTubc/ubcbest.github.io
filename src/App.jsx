@@ -10,6 +10,7 @@ import People from "./pages/People";
 import Recruitment from "./pages/Recruitment";
 import Sponsors from "./pages/Sponsors";
 import bestLogo from "./images/logo/favicon.png";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <div>
             <img src={bestLogo} className="logo" alt=""/>
             <h1 className="website-header">UBC BEST</h1>
+            
             </div>
             <ul>
               <li>
@@ -43,6 +45,9 @@ function App() {
                 <Link to="/sponsors">SPONSORS</Link>
               </li>
             </ul>
+            <div className="navicon">
+            <RxHamburgerMenu size="25px"/>
+            </div>
           </nav>
 
           {/* A <Routes> looks through its children <Route>s and

@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import HighlightsCarousel from "../components/HighlightsCarousel";
+import Slider from "../components/Slider";
 
 function getScrollFeatures() {
   const observer = new IntersectionObserver((entries) => {
@@ -68,20 +68,14 @@ const Home = () => {
           ></iframe>
         </div>
       </div>
+      
 
       {/* HIGHTLIGHTS */}
       <div id="projects">
         <div style={{ display: "flex", justifyContent: "center"}}>
-          <h1> RECENT </h1>
-          <h1 style={{ color: "red" }}> HIGHLIGHTS </h1>
+        <h1>RECENT <span style={{color: "red"}}>HIGHLIGHTS</span></h1>
         </div>
-        <div>
-          <HighlightsCarousel />
-        </div>
-
-        {/* <div>
-          <Button mode="light-button" title="MEET THE TEAM" />
-        </div> */}
+        <Slider />
         <Footer />
       </div>
     </div>
