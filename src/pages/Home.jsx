@@ -72,7 +72,7 @@ const Home = () => {
 
       {/* HIGHTLIGHTS */}
       <div id="projects">
-        <div style={{ display: "flex", justifyContent: "center"}}>
+        <div className="container">
         <h1>RECENT <span style={{color: "red"}}>HIGHLIGHTS</span></h1>
         </div>
         <Slider />

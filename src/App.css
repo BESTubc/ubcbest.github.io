@@ -14,7 +14,11 @@ html{
 }
 
 body{
-  background: black;
+  background: rgb(25,25,25);
+background: -moz-linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(12,12,12,1) 95%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(12,12,12,1) 95%, rgba(0,0,0,1) 100%);
+background: linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(12,12,12,1) 95%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919",endColorstr="#000000",GradientType=1);
   color: white;
 
 }
@@ -22,7 +26,7 @@ body{
 #hero{
   width: 100%;
   height: 90vh;
-  background: black;
+  background: #0c0c0c;
   background-size: cover;
   background-position: center;
 }
@@ -274,23 +278,29 @@ display: block;
   height: var(--heights);
   width: var(--widths);
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .slide-image {
   width: 100%;
   height: 100%;
+  position: relative;
+  top: 4rem;
 }
 
 .slide-title,
 .slide-text {
-  width: 100%;
-  height: 100%;
   color: white;
   font-size: 50px;
   position: absolute;
   text-align: center;
   top: 40%;
   z-index: 10;
+  background-color: rgba(0, 0, 0, 0.503);
+  border-radius: 25cap;
+  padding: 10px;
+  font-weight: 100;
 }
 
 .slide-text {
@@ -300,43 +310,33 @@ display: block;
 
 .prev,
 .next {
-  color: transparent;
+  color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
-  z-index: 100;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 1rem;
-  margin-top: -3rem;
   font-size: 40px;
   font-weight: bold;
-  border-radius: 0px 5px 5px 0px;
+  position: relative;
+  z-index: 100;
 }
 
-.slider-container:hover .prev,.slider-container:hover .next {
-  color: black
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
-.slider-container:hover .prev:hover,
-.slider-container:hover .next:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  transition: all 0.5s ease-in;
+.prev {
+  left: 1rem;
 }
 
 .next {
-  right: 0;
-  border-radius: 5px 0px 0px 5px;
+  right: 1rem;
 }
 
 .all-dots {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: flex;
-  top: 85%;
-  justify-content: center;
-  z-index: 200;
+  position: relative;
+  bottom: 2rem;
+  color: black;
 }
 
 .dot {
@@ -344,7 +344,6 @@ display: block;
   height: 1.5rem;
   width: 1.5rem;
   margin: 0px 3px;
-  background-color: transparent;
   /* background-color: rgba(0, 0, 0, 0.3); */
   border-radius: 50%;
   display: inline-block;
@@ -354,9 +353,9 @@ display: block;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* .active-dot {
+.active-dot {
   background-color: rgba(255, 255, 255, 0.5);
-} */
+}
 
 .slider-container:hover .dot{
   background-color: rgba(0, 0, 0, 0.3);
@@ -370,33 +369,13 @@ display: block;
 }
 
 #projects {
-  background-color: black;
+  background-color: #191919;
   color: white;
+
 }
 
-.horizontal-projects-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: space-between;
-  height: 700px;
-  background-color: black;
-  color: white;
-  margin-top: -10%;
-}
-
-.small-projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  color: black;
-}
-
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+#projects h1 {
+  margin-top: 4rem;
 }
 
 .dark-button {
@@ -774,6 +753,5 @@ display: block;
 
 .footer {
   display: block;
-  margin-top: 100px;
 
 }
