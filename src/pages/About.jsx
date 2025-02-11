@@ -7,10 +7,7 @@ const About = () => {
   return (
     <div>
       <div className="about-us-container">
-        <div style={{display: "flex", justifyContent: "space-between"}}>
-          <h1 style={{marginRight: "10px"}}>ABOUT</h1>
-          <h1 style={{color:"red", marginLeft: "10px"}}>US</h1>
-        </div>
+      <h1>ABOUT <span style={{color: "red"}}>US</span></h1>
         
         <div style={{width:"50%", marginTop: "50px"}}>
           <h3 style={{color: "red"}}>

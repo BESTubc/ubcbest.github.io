@@ -298,7 +298,7 @@ display: block;
   top: 40%;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.503);
-  border-radius: 25cap;
+  border-radius: 15px;
   padding: 10px;
   font-weight: 100;
 }
@@ -320,9 +320,9 @@ display: block;
 
 .arrows {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-
+  position: relative;
+  top: -12rem;
 }
 
 .prev {
