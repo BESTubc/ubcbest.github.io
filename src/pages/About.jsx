@@ -5,29 +5,29 @@ import AboutUsCard from "../components/AboutUsCard";
 
 const About = () => {
   return (
-    <div>
+    <div className="about-us">
       <div className="about-us-container">
       <h1>ABOUT <span style={{color: "red"}}>US</span></h1>
         
-        <div style={{width:"50%", marginTop: "50px"}}>
+        <div className="about-us-description">
           <h3 style={{color: "red"}}>
             <strong>Who We Are</strong>
           </h3>
-          <h2 style={{marginTop: "20px"}}>UBC BEST is a multidisciplinary team that focuses on developing context-appropriate solutions to medical challenges in our local communities and around the world.{" "}</h2>
+          <h2 >UBC BEST is a multidisciplinary team that focuses on developing context-appropriate solutions to medical challenges in our local communities and around the world.{" "}</h2>
         </div>
-        <div style={{width:"50%", marginTop: "50px"}}>
+        <div className="about-us-description">
           <h3 style={{color: "red"}}>
             <strong>Threefold Mission Statement</strong>
           </h3>
-          <h2 style={{marginTop: "20px"}}>
+          <h2>
           To actively develop the biomedical community
 through engineering contributions, connections,
 and outreach </h2>
-<h2 style={{marginTop: "20px"}}>
+<h2>
 To use a context appropriate approach to address medical
 challenges worldwide in collaboration with healthcare
 professionals</h2>
-<h2 style={{marginTop: "20px"}}>
+<h2>
 To develop members both technically and professionally</h2>
 
         </div>
@@ -42,7 +42,8 @@ To develop members both technically and professionally</h2>
           Meetings happen monthly workshops and weekly sub-team meetings for 2- 4 hours once a week, 
           project shadowing and both 1-on-1 and/or group mentorship depending on subteam. Monthly 30min 
           - 1 hour BESTie advice sessions to debrief and ask upper years for advice/guidance on any topic."
-          iframe="https://drive.google.com/file/d/13cs_0W3hyynUh0bb27FO1qgwMANyO9_s/preview"
+          link="https://i.ibb.co/v6wW4g91/Mentees.jpg"
+          alt="Mentees"
         />
         {/* <AboutUsCard
           title="Compliance at Apple"

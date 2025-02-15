@@ -17,7 +17,7 @@ const AboutUsCard = (props) => {
         </div>
       </div>
       <div className="about-us-card-description">
-        { toggle ? <p>{props.description}</p> : <iframe class="about-us-image" src={props.iframe} width="640" height="480" allow="autoplay"></iframe>}
+        { toggle ? <p>{props.description}</p> : <img class="about-us-image" src={props.link} alt={props.alt}/>}
       </div>
     </div>
   );
