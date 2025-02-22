@@ -26,23 +26,46 @@ const People = () => {
   const scrollFeatures = getScrollFeatures();
 
   React.useEffect(() => {
-      getScrollFeatures({ type: 'recruitment' });
-    }, [scrollFeatures]);
+    getScrollFeatures({ type: "recruitment" });
+  }, [scrollFeatures]);
 
   return (
     <div>
-      <div className="teams-header">
-        <h1>Leadership</h1>
-      </div>
-      <hr className="line" />
-
       <div className="teams-headshots">
-          <h2>Captains</h2>
-          <div className="captains">
-            <ProfileCard height="250px" width="250px" color="red" class="hidden item" name="Dundee Wang" position="Co-Captain External" image={external}/>
-            <ProfileCard height="250px" width="250px" color="red" class="hidden item" name="Sze Lok Ng" position="Co-Captain Projects" image={projects}/>
-            <ProfileCard height="250px" width="250px" color="red" class="hidden item" name="Alexandra Murphy" position="Co-Captain Operations" image={operations}/>
-          </div>
+        <div className="teams-header">
+          <h1>Leadership</h1>
+        </div>
+        <hr />
+        <h2>Captains</h2>
+        <div className="captains">
+          <ProfileCard
+            height="250px"
+            width="250px"
+            color="red"
+            class="hidden item"
+            name="Dundee Wang"
+            position="External"
+            image={external}
+          />
+          <ProfileCard
+            height="250px"
+            width="250px"
+            color="red"
+            class="hidden item"
+            name="Sze Lok Ng"
+            position="Projects"
+            image={projects}
+          />
+          <ProfileCard
+            height="250px"
+            width="250px"
+            color="red"
+            class="hidden item"
+            name="Alexandra Murphy"
+            position="Operations"
+            image={operations}
+          />
+        </div>
       </div>
       <Footer />
     </div>
