@@ -458,6 +458,16 @@ display: block;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.highlights-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight {
+  height: 90vh;
+}
+
 .play-pause {
   color: black;
 }
@@ -631,6 +641,14 @@ display: block;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.team-link {
+  text-decoration: none;
+}
+
+.subteam-page {
+  height: 90vh;
 }
 
 .teams-header h1 {
@@ -810,17 +828,18 @@ display: block;
 
 .sponsor-container {
   display: flex;
-  margin-top: 5%;
+  margin: 4rem;
 }
 
 .sponsor-container h2 {
   position: sticky;
   top: 50%;
   height: 10px;
+  margin: 1rem;
 }
 
 .tier-container {
-  height: 360vh;
+  height: 100%;
   width: 25%;
 }
 

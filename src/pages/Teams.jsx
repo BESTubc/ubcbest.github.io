@@ -1,5 +1,6 @@
 import React from "react";
 
+import {Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
 function getScrollFeatures() {
@@ -33,7 +34,9 @@ const Teams = () => {
         <hr />
         <div className="teams">
           <div className="team-card">
-            <h3>ENABLE</h3>
+            <Link className="team-link" to="/teams/enable">
+              <h3>ENABLE</h3>
+            </Link>
             <p>
               Custom, client-focused assistive device initiatives in
               collaboration with the Vancouver chapter of the Tetra Society.
@@ -46,6 +49,7 @@ const Teams = () => {
             width="640"
             height="480"
             allow="autoplay"
+            title="ENABLE"
           ></iframe>
         </div>
 
@@ -53,7 +57,9 @@ const Teams = () => {
 
         <div className="teams">
           <div className="team-card">
-            <h3>SportsMed</h3>
+            <Link className="team-link" to="/teams/sportsmed">
+              <h3>SportsMed</h3>
+            </Link>
             <p>
               SportsMed analyzes common sports injuries and how we can help
               prevent and recover from these injuries.
@@ -64,6 +70,7 @@ const Teams = () => {
             width="640"
             height="480"
             allow="autoplay"
+            title="SportsMed"
           ></iframe>
         </div>
 
@@ -71,7 +78,9 @@ const Teams = () => {
 
         <div className="teams">
           <div className="team-card">
-            <h3>Lifeline</h3>
+            <Link className="team-link" to="/teams/lifeline">
+              <h3>Lifeline</h3>
+            </Link>
             <p>
               Lifeline is a team dedicated to adapting and developing medical
               technologies for low- income settings to help imrpove
@@ -83,6 +92,7 @@ const Teams = () => {
             width="640"
             height="480"
             allow="autoplay"
+            title="Lifeline"
           ></iframe>
         </div>
 
@@ -90,7 +100,9 @@ const Teams = () => {
 
         <div className="teams">
           <div className="team-card">
-            <h3>MINT</h3>
+            <Link className="team-link" to="/teams/mint">
+              <h3>MINT</h3>
+            </Link>
             <h4>Multifaceted Innovations in Neurotechnology</h4>
             <p>
               Exploring accessible neurotechnology tusing EEG and annual
@@ -102,6 +114,7 @@ const Teams = () => {
             width="640"
             height="480"
             allow="autoplay"
+            title="MINT"
           ></iframe>
         </div>
 
@@ -109,7 +122,9 @@ const Teams = () => {
 
         <div className="teams">
           <div className="team-card">
-            <h3>BIT</h3>
+            <Link className="team-link" to="/teams/bit">
+              <h3>BIT</h3>
+            </Link>
             <h4>Biochemical Innovation Team</h4>
             <p>
               BIT investigates the impacts of Rutin and Quercetin on pancreatic
@@ -122,6 +137,7 @@ const Teams = () => {
             width="640"
             height="480"
             allow="autoplay"
+            title="BIT"
           ></iframe>
         </div>
 
@@ -129,7 +145,9 @@ const Teams = () => {
 
         <div className="teams">
           <div className="team-card">
-            <h3>M2M</h3>
+            <Link className="team-link" to="/teams/m2m">
+              <h3>M2M</h3>
+            </Link>
             <h4>Multiple Sclerosis to Movement</h4>
             <p>
               An MS-centric project aims at developing a therapy glove in
@@ -142,6 +160,7 @@ const Teams = () => {
             width="640"
             height="480"
             allow="autoplay"
+            title="M2M"
           ></iframe>
         </div>
 
@@ -149,7 +168,9 @@ const Teams = () => {
 
         <div className="teams">
           <div className="team-card">
-            <h3>Mentorship</h3>
+            <Link className="team-link" to="/teams/mentorship">
+              <h3>Mentorship</h3>
+            </Link>
             <p>
               Open to any 1st and 2nd year students who are enthusiastic and
               willing to learn! We help first and second year students develop
@@ -162,6 +183,7 @@ const Teams = () => {
             width="640"
             height="480"
             allow="autoplay"
+            title="Mentorship"
           ></iframe>
         </div>
 
@@ -169,7 +191,9 @@ const Teams = () => {
 
         <div className="teams">
           <div className="team-card">
-            <h3>Media</h3>
+            <Link className="team-link" to="/teams/media">
+              <h3>Media</h3>
+            </Link>
             <p></p>
           </div>
           <iframe
@@ -177,37 +201,11 @@ const Teams = () => {
             width="640"
             height="480"
             allow="autoplay"
+            title="Media"
           ></iframe>
         </div>
 
         <hr />
-
-        {/* <div className="teams">
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Rohan Birk" position="ENABLE" image={enable_lead_one}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Angie Peng" position="ENABLE" image={enable_lead_two}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Dundee Wang" position="SportsMed" image={external}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Alexandra Murphy" position="SportsMed" image={operations}/>
-            
-          </div>
-          <div className="teams">
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kendall Mooney" position="Lifeline" image={lifeline_lead_one}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kisa Naqvi" position="Lifeline" image={lifeline_lead_two}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Priyanshu Mahey" position="MINT" image={mint_lead_one}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Sze Log Ng" position="MINT" image={mint_lead_two}/>
-          </div>
-          <div className="teams"> 
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Yasmine Bellahcen" position="BIT" image={bit_lead_one}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Brianna Tsuyuki" position="BIT" image={bit_lead_two}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Wesley Chan" position="M2M" image={m2m_lead_one}/> 
-          </div>
-
-          <h2>Mentorship, Sponsorship and Media</h2>
-          <div className="teams">
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Ben Magyar" position="Co-Head of Mentorship" image={mentorship_lead_one}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Ceana Macatula" position="Co-Head of Mentorship" image={mentorship_lead_two}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Alicia Fung" position="Head of Media, Workshop" image={media_lead}/>
-            <ProfileCard size="200px" color="darkblue" class="hidden item" name="Kisa Naqvi" position="Outreach and Engagement" image={outreach_lead}/>
-          </div> */}
       </div>
       <Footer />
     </div>

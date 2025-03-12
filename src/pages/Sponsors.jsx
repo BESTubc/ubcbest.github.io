@@ -55,81 +55,30 @@ const Sponsors = () => {
         <h2 style={{ textAlign: "right", width: "37%" }}>THANK YOU TO </h2>
 
         <div class="tier-container">
-          <ProfileCard
-            image={ECE}
-            height="250px"
-            width="300px"
-          />
-          <ProfileCard
-            image={ME}
-            height="300px"
-            width="300px"
-          />
-          <ProfileCard
-            image={AS}
-            height="300px"
-            width="300px"
-          />
-          <ProfileCard
-            image={SBME}
-            height="400px"
-            width="300px"
-          />
-          <ProfileCard
-            image={MED}
-            height="300px"
-            width="300px"
-          />
-          <ProfileCard
-            image={ESHIP}
-            height="100px"
-            width="300px"
-          />
-          <ProfileCard
-            image={NS}
-            height="300px"
-            width="300px"
-          />
-          <ProfileCard
-            image={MMC}
-            height="125px"
-            width="300px"
-          />
-          <ProfileCard
-            image={BMEGA}
-            height="300px"
-            width="300px"
-          />
-          <ProfileCard
-            image={TETRA}
-            height="200px"
-            width="300px"
-          />
-          <ProfileCard
-            image={ICCHANGE}
-            height="100px"
-            width="300px"
-          />
-          <ProfileCard
-            image={HH}
-            height="300px"
-            width="300px"
-          />
-          <ProfileCard
-            image={NGDI}
-            height="120px"
-            width="300px"
-          />
+          <ProfileCard image={ECE} height="250px" width="300px" />
+          <ProfileCard image={ME} height="300px" width="300px" />
+          <ProfileCard image={AS} height="300px" width="300px" />
+          <ProfileCard image={SBME} height="400px" width="300px" />
+          <ProfileCard image={MED} height="300px" width="300px" />
+          <ProfileCard image={ESHIP} height="100px" width="300px" />
+          <ProfileCard image={NS} height="300px" width="300px" />
+          <ProfileCard image={MMC} height="125px" width="300px" />
+          <ProfileCard image={BMEGA} height="300px" width="300px" />
+          <ProfileCard image={TETRA} height="200px" width="300px" />
+          <ProfileCard image={ICCHANGE} height="100px" width="300px" />
+          <ProfileCard image={HH} height="300px" width="300px" />
+          <ProfileCard image={NGDI} height="120px" width="300px" />
         </div>
         <h2>FOR SPONSORING</h2>
       </div>
-      <a
-        href={SponsorshipPackage}
-        download="BEST_Sponsorship_Package"
-        target="_blank"
-      >
-        <Button mode="sponsor dark-button" title="Become a Sponsor" />
-      </a>
+      <div>
+        <a
+          href={SponsorshipPackage}
+          download="BEST_Sponsorship_Package"
+        >
+          <Button mode="sponsor dark-button" title="Become a Sponsor" />
+        </a>
+      </div>
       <Footer />
     </div>
   );

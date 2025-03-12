@@ -2,8 +2,8 @@ import React from 'react';
 
 const SimonCox = () => {
     return ( 
-        <div>
-            Simon Cox
+        <div className="highlight">
+            <h2>Simon Cox</h2>
         </div>
      );
 }
