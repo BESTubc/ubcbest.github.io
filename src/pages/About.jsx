@@ -7,31 +7,34 @@ const About = () => {
   return (
     <div className="about-us">
       <div className="about-us-container">
-      <h1>ABOUT <span style={{color: "red"}}>US</span></h1>
-        
+        <h1>
+          ABOUT <span style={{ color: "red" }}>US</span>
+        </h1>
+
         <div className="about-us-description">
-          <h3 style={{color: "red"}}>
+          <h3 style={{ color: "red" }}>
             <strong>Who We Are</strong>
           </h3>
-          <h2 >UBC BEST is a multidisciplinary team that focuses on developing context-appropriate solutions to medical challenges in our local communities and around the world.{" "}</h2>
+          <h2>
+            UBC BEST is a multidisciplinary team that focuses on developing
+            context-appropriate solutions to medical challenges in our local
+            communities and around the world.{" "}
+          </h2>
         </div>
         <div className="about-us-description">
-          <h3 style={{color: "red"}}>
+          <h3 style={{ color: "red" }}>
             <strong>Threefold Mission Statement</strong>
           </h3>
           <h2>
-          To actively develop the biomedical community
-through engineering contributions, connections,
-and outreach </h2>
-<h2>
-To use a context appropriate approach to address medical
-challenges worldwide in collaboration with healthcare
-professionals</h2>
-<h2>
-To develop members both technically and professionally</h2>
-
+            To actively develop the biomedical community through engineering
+            contributions, connections, and outreach{" "}
+          </h2>
+          <h2>
+            To use a context appropriate approach to address medical challenges
+            worldwide in collaboration with healthcare professionals
+          </h2>
+          <h2>To develop members both technically and professionally</h2>
         </div>
-        
       </div>
       <div className="about-mini-container">
         <AboutUsCard

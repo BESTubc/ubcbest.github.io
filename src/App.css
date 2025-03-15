@@ -255,10 +255,12 @@ h2 {
   .about-us-card-description {
     font-size: 14px;
   }
+
   .teams-headshots iframe {
     height: 300px;
     width: 400px;
   }
+
   .teams-headshots {
     text-align: left;
     margin: 0% 20%;
