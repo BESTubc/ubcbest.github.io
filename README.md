@@ -36,9 +36,15 @@ For more information on navigating file directories, adding folders, adding file
 
 `git pull`
 
+9. To see local changes, visit "http://localhost:3000/" after running:
+
+`npm start`
+
+To exit/shutdown the local server, use `CTRL + C`.
+
 ### Pushing code
 
-9. After finishing editing any code, use git to add, commit and push code to the GitHub repository (which will also auto deploy via Vercel).
+10. After finishing editing any code, use git to add, commit and push code to the GitHub repository (which will also auto deploy via Vercel).
 
 `git add .`
 
@@ -46,6 +52,6 @@ For more information on navigating file directories, adding folders, adding file
 
 `git push`
 
-10. Check this GitHub repository to see if your changes have been pushed; it might take some time.
+11. Check this GitHub repository to see if your changes have been pushed; it might take some time.
 
-11. Once pushed, check if your changes have been pushed to Vercel, either in Vercel projects or under 'Deployments' on this repository.
+12. Once pushed, check if your changes have been pushed to Vercel, either in Vercel projects or under 'Deployments' on this repository.
