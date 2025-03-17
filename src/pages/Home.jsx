@@ -61,12 +61,18 @@ const Home = () => {
             context-appropriate solutions to medical challenges locally and
             around the world.
           </p>
-          <iframe
+          <iframe 
+            src="https://drive.google.com/file/d/1BevXXgkb_Oc9ZZf2FG3fVjkEWLVihz89/preview" 
+            allow="autoplay"
+            class="who-we-are-pic"
+            title="Full Team Photo"
+          ></iframe>
+          {/* <iframe
             src="https://drive.google.com/file/d/1Chr9da6t7FpKA_UnKrpPWvZ-PVKPh1eE/preview"
             allow="autoplay"
             class="who-we-are-pic"
             title="Mentorship Leads Photo"
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
       
